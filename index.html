@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="icon" type="image/x-icon" href="archives/logo teste.png">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+         <!-- MENU -->
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="archives/logo teste.png" alt="Logo teste homem forte" id="logo">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="" class="nav-link" id="essapagina">IMC</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Calculadora de Dolar</a></li>
+                    <li class="nav-item"><a href=" " class="nav-link">Calculo de Renda</a></li>
+                </ul>
+             </div>
+
+             <div class="contato-button">
+               <button>Contato Suporte</button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button><img src="archives/2453874-200.png" alt=""></button>
+            </div>
+        </nav>
+
+         <!-- PRIMEIRA SESSÃO -->
+
+        <div id="primeirasessao">
+            <div id="fundoforms"> 
+                <h1 id="h1">Coloque abaixo as informações e vamos calcular para você!</h1>
+    
+                <form action="" method="post" id="myform">
+                    <div class="campo-forms">
+                        <label class="label" for="name">
+                            Seu nome <br>
+                        <input type="text" name="primeironome" id="name" placeholder="Preencha esse campo..." required>
+                        </label>
+                    </div>
+                    <div class="campo-forms">
+                        <label class="label"  for="peso">
+                            Seu peso <br>
+                            <input type="number" name="seupeso" id="peso" placeholder="Preencha esse campo..." required>
+                        </label>
+                    </div>
+                    <div class="campo-forms">
+                        <label class="label"  for="altura">
+                            Sua altura <br>
+                            <input type="number" name="suaaltura" id="altura" placeholder="Preencha esse campo..." required>
+                        </label>
+                    </div>
+                    <div class="campo-forms">
+                        <button type="submit" class="button" id="submitbtn" value="submitbtn">Enviar informações</button>
+                    </div>
+                </form>
+    
+                <div id="loading"> </div>
+    
+                <p id="resposta"></p>
+
+                <div id="fotoresultado"></div>
+
+                <button class="button" id="recarregar">Refazer o teste</button>
+            </div>
+        </div>
+
+    </header>
+    <!-- FIM Header -->
+</body>
+
+<script src="index.js" defer></script>
+</html>
