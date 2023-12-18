@@ -1,0 +1,3 @@
+Primeiro código que fiz 100% sozinho, ainda penso em adicionar sessões que irão ativar com o resultado, porém fica para outro dia...
+
+Não liguem para o style, fiz de qualquer jeito apenas para focar em aprender o JS.
